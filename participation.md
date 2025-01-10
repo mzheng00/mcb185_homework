@@ -32,7 +32,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Asked a question in class
 	+ Participated in discussion
 	+ Attended class Thursday
-	+ Helped my friend Emma with setting up github
+	+ Answered a question in class
+	+ Helped my friend Emma and other classmates with setting up github and updating
+		participation file
 - Week 2
 - Week 3
 - Week 4
