@@ -1,12 +1,12 @@
-- movies
+color cyan "- Movies"
 	+ inception
 	+ interstellar
 	+ 21 jump street
-- food
+- Food
 	+ sushi
 	+ pho
 	+ popcorn
-- hobbies
+- Hobbies
 	+ video games
 	+ building pcs
 	+ gym
