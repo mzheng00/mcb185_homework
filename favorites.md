@@ -1,4 +1,4 @@
-<span style="color:red"> - Movies*</span>
+- Movies
 	+ inception
 	+ interstellar
 	+ 21 jump street
