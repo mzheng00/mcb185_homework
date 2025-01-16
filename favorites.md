@@ -1,4 +1,4 @@
-color cyan "- Movies"
+<span style="color:red"> - Movies*</span>
 	+ inception
 	+ interstellar
 	+ 21 jump street
