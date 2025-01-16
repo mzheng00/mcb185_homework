@@ -39,7 +39,11 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 2
 	+ Attended class Tuesday
 	+ Helped classmate pull up the colors in terminal
-	+ Points: 2
+	+ Introduced myself to someone new
+	+ Attended class Thursday
+	+ Introduced myself to Jaden D, Christine, and Lian
+	+ Changed seats
+	+ Points: 5
 - Week 3
 - Week 4
 - Week 5
