@@ -43,8 +43,15 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class Thursday
 	+ Introduced myself to Jaden D, Christine, and Lian
 	+ Changed seats
+	+ Asked a question
 	+ Points: 5
 - Week 3
+	+ Attended class Tuesday
+	+ Introduced myself to someone new
+	+ Asked a question 
+	+ Participated in discussion
+	+ Did not attend class thursday to work on Unit 0 with Emma
+	+ Points: 5
 - Week 4
 - Week 5
 - Week 6
