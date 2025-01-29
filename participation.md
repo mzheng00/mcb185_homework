@@ -53,6 +53,10 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Did not attend class thursday to work on Unit 0 with Emma
 	+ Points: 5
 - Week 4
+	+ Attended class Tuesday
+	+ Participated in discussion
+	+ Finished Unit 1
+	+ Points: 3
 - Week 5
 - Week 6
 - Week 7
