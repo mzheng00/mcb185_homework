@@ -51,13 +51,18 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Asked a question 
 	+ Participated in discussion
 	+ Did not attend class thursday to work on Unit 0 with Emma
+	+ Took Unit 0 Assessment
 	+ Points: 5
 - Week 4
 	+ Attended class Tuesday
 	+ Participated in discussion
 	+ Finished Unit 1
-	+ Points: 3
+	+ Attended class Thursday
+	+ Helped classmate understand modulo
+	+ Points: 4
 - Week 5
+	+ Attended class Tuesday
+	+ Helped a classmate with the code for the dice rolling
 - Week 6
 - Week 7
 - Week 8
