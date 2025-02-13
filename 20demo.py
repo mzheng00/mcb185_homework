@@ -84,3 +84,18 @@ def poisson(n, k):
 
 print(poisson(4, 6))
 
+def binomial(n, k):
+	bin = factorial(n)/(factorial(k)*factorial(n-k))
+	return bin
+
+def eulers(n):
+	num = 0
+	for i in range(n):
+		num = num + 1/factorial(n)
+	return num
+
+def prime(n):
+	for i in range(2, n//2 +1):
+		if n % i == 0:
+			return False
+	return True

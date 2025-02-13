@@ -6,3 +6,5 @@ for a in range(1, 100):
         if c % 1 == 0 and c < 100:
             print(a, b, int(c))
 
+
+
