@@ -1,55 +1,47 @@
 import random
 
 
-roll = random.randint(1, 21)
-print(f'You rolled a {roll}')
+def sim_norm(dc, sim_num):
+    success_norm = 0
+    for i in range(sim_num):
+        x = random.randint(1,20)
+        if x >= dc:
+            success_norm += 1
+    p_normal = success_norm / sim_num
+    return p_normal
 
-possible_dc = [5, 10, 15]
-dc = random.choice(possible_dc)
+def sim_adv(dc, sim_num):
+    success_adv = 0
+    for i in range(sim_num):
+        x = random.randint(1,20)
+        y = random.randint(1,20)
+        if x >= y:
+            roll = x
+        else:
+            roll = y
+        if roll >= dc:
+            success_adv += 1
+    p_adv = success_adv / sim_num
+    return p_adv
 
-def savingthrow():
-    if roll >= dc:
-        print(f'You are safe from DC of {dc}')
-    else:
-        print(f'You died from a DC of {dc}')
+def sim_disadv(dc, sim_num):
+    success_dis = 0
+    for i in range(sim_num):
+        x = random.randint(1,20)
+        y = random.randint(1,20)
+        if x <= y:
+            roll = x
+        else:
+            roll = y
+        if roll >= dc:
+            success_dis += 1
+    p_dis = success_dis / sim_num
+    return p_dis
 
-def normal():
-    x = random.randint(1,21)
-    if x >= dc:
-        return True
-
-def advantage():
-    x = max(random.randint(1,21), random.randint(1,21))
-    if x >=dc:
-        return True
-
-def disadvantage():
-    x = min(random.randint(1,21), random.randint(1,21))
-    if x >= dc:
-        return True
-
-success_adv = 0
-success_dis = 0
-success_norm = 0
-
-for i in range(1000):
-    if advantage() == True:
-        success_adv += 1
-    if disadvantage() == True:
-        success_dis += 1
-    if normal() == True:
-        success_norm += 1
-
-p_adv = success_adv / 1000
-p_dis = success_dis / 1000
-p_normal = success_norm / 1000
-
-savingthrow()
-print('Probability of Success:')
-print(f'Normally: {p_normal}')
-print(f'With Advantage: {p_adv}')
-print(f'With Disadvantage: {p_dis}')
-
+print('|  DC   | Normal | Advantage | Disadvantage |')
+print('|  5    |', sim_norm(5, 1000) , ' | ' , sim_adv(5, 1000) , '   | ' , sim_disadv(5, 1000), ' |')
+print('|  10   |', sim_norm(10, 1000), ' | ', sim_adv(10, 1000), '   | ', sim_disadv(10, 1000), ' |')
+print('|  15   |', sim_norm(15, 1000), ' | ', sim_adv(15, 1000), '   | ', sim_disadv(15, 1000), ' |')
 
 
     

@@ -1,4 +1,5 @@
 import math
+import random
 
 t = 1, 2
 print(t)
@@ -99,3 +100,6 @@ def prime(n):
 		if n % i == 0:
 			return False
 	return True
+
+
+
