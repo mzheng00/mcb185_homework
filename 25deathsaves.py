@@ -8,21 +8,21 @@ def sim_deathsave():
         if roll == 1:
             failure += 2
         elif roll == 20:
-            return 'revived'
+            return 20
         elif roll < 10:
             failure += 1
         elif roll >= 10:
             success += 1
     if failure == 3:
-        return 'dead'
+        return False
     elif success == 3:
-        return 'stable'
+        return True
 
 
 def sim_revives(sim_num):
     num_revives = 0
     for i in range(sim_num):
-        if sim_deathsave() == 'revived':
+        if sim_deathsave() == 20:
             num_revives += 1
     p_revives = num_revives / sim_num
     return p_revives
@@ -30,7 +30,7 @@ def sim_revives(sim_num):
 def sim_deaths(sim_num):
     num_death = 0
     for i in range(sim_num):
-        if sim_deathsave() == 'dead':
+        if sim_deathsave() == False:
             num_death += 1
     p_death = num_death / sim_num
     return p_death
@@ -38,7 +38,7 @@ def sim_deaths(sim_num):
 def sim_stabalize(sim_num):
     num_stable = 0
     for i in range(sim_num):
-        if sim_deathsave() == 'stable':
+        if sim_deathsave() == True:
             num_stable += 1
     p_stable = num_stable / sim_num
     return p_stable
