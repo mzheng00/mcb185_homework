@@ -8,42 +8,33 @@ def sim_deathsave():
         if roll == 1:
             failure += 2
         elif roll == 20:
-            return 20
+            return 'revive'
         elif roll < 10:
             failure += 1
         elif roll >= 10:
             success += 1
     if failure == 3:
-        return False
+        return 'dead'
     elif success == 3:
-        return True
+        return 'success'
 
+sim_num = 10000
+num_revives = 0
+num_death = 0
+num_stable = 0
 
-def sim_revives(sim_num):
-    num_revives = 0
-    for i in range(sim_num):
-        if sim_deathsave() == 20:
-            num_revives += 1
-    p_revives = num_revives / sim_num
-    return p_revives
+for i in range(sim_num):
+    if sim_deathsave() == 'revive':
+        num_revives += 1
+    elif sim_deathsave() == 'dead':
+        num_death += 1
+    else:
+        num_stable += 1
 
-def sim_deaths(sim_num):
-    num_death = 0
-    for i in range(sim_num):
-        if sim_deathsave() == False:
-            num_death += 1
-    p_death = num_death / sim_num
-    return p_death
+p_revives = num_revives / sim_num
+p_death = num_death / sim_num
+p_stable = num_stable / sim_num
 
-def sim_stabalize(sim_num):
-    num_stable = 0
-    for i in range(sim_num):
-        if sim_deathsave() == True:
-            num_stable += 1
-    p_stable = num_stable / sim_num
-    return p_stable
-
-
-print('Probability of Revive: ', sim_revives(100000))
-print('Probability of Death: ', sim_deaths(100000))
-print('Probability of Stabilizing: ', sim_stabalize(100000))
+print('Probability of Revive: ', p_revives)
+print('Probability of Death: ', p_death)
+print('Probability of Stabilizing: ', p_stable)
