@@ -63,12 +63,28 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 5
 	+ Attended class Tuesday
 	+ Helped a classmate with the code for the dice rolling
+	+ Asked a question in class
 	+ Finished Unit 2
 	+ Took live assessment for Unit 2
 	+ Points: 3
 - Week 6
 	+ Attended class Tuesday
+	+ Answered a question in class
+	+ Points: 2
 - Week 7
+	+ Attended class Tuesday 
+	+ Attended class Thursday
+	+ Asked a question in class
+	+ Points: 3
 - Week 8
+	+ Attended class Tuesday
+	+ Helped classmate fix their code
+	+ Finished Unit 3
+	+ Points: 2
 - Week 9
+	+ Attended class Tuesday
+	+ Took in class written exam for Unit 3
+	+ Asked a question in class
+	+ Introduced myself to someone new in class
+	+ Points: 4
 - Week 10
