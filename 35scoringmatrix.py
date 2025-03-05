@@ -5,7 +5,7 @@ match = sys.argv[2]
 mismatch = sys.argv[3]
 
 def labels(seq):
-    label = '  ' + '  '.join(seq)
+    label = '   ' + '  '.join(seq)
     return label
 
 def matrix(string, m, mism):
@@ -15,13 +15,13 @@ def matrix(string, m, mism):
         row_val = []
         for j in range(n):
             if string[i] == string[j]:
-                row_val.append(f'{m:2}')
+                row_val.append(f'{m}')
             else:
-                row_val.append(f'{mism:2}')
+                row_val.append(f'{mism}')
         row.append(f'{string[i]} ' + ' '.join(row_val))
     return '\n'.join(row)
 
-print('', end= ' ')
+
 print(labels(sequence))
 print(matrix(sequence, match, mismatch))
 
