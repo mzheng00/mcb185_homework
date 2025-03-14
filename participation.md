@@ -66,11 +66,13 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Asked a question in class
 	+ Finished Unit 2
 	+ Took live assessment for Unit 2
-	+ Points: 3
+	+ Points: 4
 - Week 6
 	+ Attended class Tuesday
 	+ Answered a question in class
-	+ Points: 2
+	+ Attended class Thursday
+	+ Helped a classmate with code
+	+ Points: 4
 - Week 7
 	+ Attended class Tuesday 
 	+ Attended class Thursday
@@ -79,12 +81,17 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 8
 	+ Attended class Tuesday
 	+ Helped classmate fix their code
-	+ Finished Unit 3
-	+ Points: 2
+	+ Worked on Unit 3 with Emma
+	+ Finished Unit 3 with Emma
+	+ Points: 4
 - Week 9
 	+ Attended class Tuesday
 	+ Took in class written exam for Unit 3
 	+ Asked a question in class
 	+ Introduced myself to someone new in class
-	+ Points: 4
+	+ Passed Unit 3 Live assessment after failing the written
+	+ Points: 5
 - Week 10
+	+ Did not attend class Thursday because Dr. Korf sick :( feel better soon
+	+ Worked on and finished Unit 5 with Emma
+	+ Points: 2
